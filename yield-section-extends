@@ -1,0 +1,8 @@
+
+Child Page
+@extends('layout.MasterLayout')
+@section('titleKey','Home Page')
+
+
+Master Page
+<title>@yield('titleKey')</title>
