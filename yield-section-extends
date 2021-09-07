@@ -2,7 +2,11 @@
 Child Page
 @extends('layout.MasterLayout')
 @section('titleKey','Home Page')
+@section('buttonName','Submit Now')
+
 
 
 Master Page
 <title>@yield('titleKey')</title>
+
+<button type="button">@yield('buttonName')</button>
